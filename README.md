@@ -1,7 +1,7 @@
-# LocateAPI
+# PositionTracker API
 
 ## Overview
-LocateAPI is a robust service built using vertical slice architecture designed to handle various location-based queries. It supports converting IP addresses to physical locations and can be easily integrated into your web applications. The system uses data from third-party providers and caches results in MongoDB for optimized performance.
+Position Tracker API is a robust service built using vertical slice architecture designed to handle various location-based queries. It supports converting IP addresses to physical locations and can be easily integrated into your web applications. The system uses data from third-party providers and caches results in MongoDB for optimized performance.
 
 ## Features
 - **IP to Location**: Converts IP addresses to physical locations using third-party data.
