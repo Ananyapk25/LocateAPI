@@ -33,14 +33,14 @@ Position Tracker API is a robust service built using vertical slice architecture
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/Ananyapk25/LocateAPI.git
+    git clone https://github.com/Ananyapk25/PositionTracker-API.git
     ```
 
 2. **Install Dependencies**:
     - Ensure you have **.NET SDK 8** installed.
     - Open a terminal and navigate to the project folder:
         ```bash
-        cd LocateAPI
+        cd PositionTracker-API
         ```
     - Restore dependencies:
         ```bash
@@ -54,7 +54,7 @@ Position Tracker API is a robust service built using vertical slice architecture
         ```
     - Run the MongoDB container:
         ```bash
-        docker run -d -p 27017:27017 --name LocateAPI-mongo mongo
+        docker run -d -p 27017:27017 --name PositionTracker-API-mongo mongo
         ```
 
 
@@ -82,7 +82,7 @@ Here's an example of how you can configure your `appsettings.json` file:
 {
   "MongoDatabase": {
     "Host": "mongodb://localhost:27017",
-    "DatabaseName": "LocateAPI"
+    "DatabaseName": "PositionTracker-API"
   },
   "Features": {
     "IpLocation": {
